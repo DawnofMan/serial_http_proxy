@@ -1,0 +1,39 @@
+{
+  "name": "browser-http-proxy",
+  "version": "1.0.0",
+  "description": "Get started ---",
+  "main": "basic.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysangkok/browser-http-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysangkok/browser-http-proxy/issues"
+  },
+  "homepage": "https://github.com/ysangkok/browser-http-proxy#readme",
+  "dependencies": {
+    "array-filter": "^1.0.0",
+    "available-typed-arrays": "^1.0.2",
+    "base64-js": "^1.5.1",
+    "chromify": "^0.0.2",
+    "es-abstract": "^1.18.0",
+    "foreach": "^2.0.5",
+    "http": "*",
+    "http-server": "^0.12.3",
+    "ieee754": "^1.2.1",
+    "is-arguments": "^1.1.0",
+    "is-generator-function": "^1.0.8",
+    "object-assign": "^4.1.1",
+    "process": "^0.11.10",
+    "regenerator-runtime": "^0.13.7",
+    "spdy": "^4.0.2",
+    "utf8-encoding": "^0.1.2",
+    "webworkify": "^1.5.0",
+    "which-typed-array": "^1.1.4"
+  }
+}
