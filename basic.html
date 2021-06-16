@@ -1,0 +1,22 @@
+<!doctype html>
+<title>Browser HTTP Proxy</title>
+
+<script src="../v86/build/libv86.js"></script>
+
+<!-- <script src="build.js"></script> -->
+<script src="index.js">
+</script>
+<button id="pause">pause</button>
+<button id="setup">set up proxy</button>
+<button id="send">send over serial port</button>
+<input type="file" id="file" multiple />
+
+<!-- A minimal structure for the ScreenAdapter defined in browser/screen.js -->
+<div id="screen_container">
+    <div style="white-space: pre; font: 14px monospace"></div>
+    <canvas style="display: none"></canvas>
+</div>
+<textarea cols="40" rows="12" id="serial">This is the serial console. Whatever you type or paste here will be send to COM1.
+
+In Linux it can be accessed with `cat /dev/ttyS0`
+</textarea>
